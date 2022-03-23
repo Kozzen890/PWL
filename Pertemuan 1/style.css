@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.image-avatar{
+    margin-bottom: -100px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+.header { 
+    padding: 60px;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+
+@media all and (min-width: 768px) {
+    .container{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        background: white;
+    }
+
+    .col-image{
+        text-align: center;
+        flex: auto;
+        width: 33.3333%;
+    }
+
+    .col-header{
+        padding-top: 30px;
+        flex: auto;
+        width: 66.66667%;
+        text-align: center;
+    }
+
+    .content { 
+        padding: 60px;
+        font-size: 30px;
+        text-align: center;
+    }    
+
+    .muted-text {
+        font-size: 16px;
+        font-weight: 300;
+        color: #1abc9c;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        background: white;
+    }
+
+    .col-image{
+        text-align: center;
+        flex: auto;
+        width: 100%;
+    }
+
+    .col-header{
+        text-align: center;
+        padding-top: 100px;
+        flex: auto;
+        width: 100%;
+    }
+
+    .content { 
+        padding: 2vw;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .muted-text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #1abc9c;
+    }
+}
+
+
+
+.badge-green {
+    padding: 5px;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    font-size: 75%;
+    color: #fff;
+    background-color: #28a745;
+}
+
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+	margin:50px auto;
+}
+
+tr:nth-of-type(odd) { 
+    background: #eee; 
+}
+
+th { 
+	background: #1abc9c; 
+	color: white; 
+	font-weight: bold; 
+}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+}
